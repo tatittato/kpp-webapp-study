@@ -1,7 +1,7 @@
 # [S2d] Korean Pronunciation Practice Web Application Study
 
 ## Installation
-1. install python3.8
+1. install python3.10
 
 2. install packages
 ```bash
@@ -27,12 +27,12 @@ http://127.0.0.1:8000/docs
 ├── fastapi_app
 │   ├── routers # api routers 
 │   |   ├── rank.py # 리더보드 관련 api 구현 파일
-│   |   ├── speech.py # 음성연습 관련 api 구현 파일
+│   |   ├── speech.py # 발음연습 관련 api 구현 파일
 │   ├── utils
 │   |   ├── openai_stt_api.py # openai stt api 구현 모듈
 │   |   ├── text_diff.py # 문장 비교 알고리즘 구현 모듈
 │   ├── views
-│   |   ├── home.py # 연습페이지 웹페이지 구현 파일
+│   |   ├── home.py # 발음 연습페이지 웹페이지 구현 파일
 │   |   ├── ranking.py # 리더보드 웹페이지 구현 파일
 │   ├── main.py # main file of fastapi. uwsgi will run this file to start web server.
 ├── static # static files, you can access files in this directory by http://127.0.0.1:8000/static/css/home.css
@@ -40,7 +40,7 @@ http://127.0.0.1:8000/docs
 │   ├── img # image files
 │   └── js # javascript files
 ├── templates # html files
-│   ├── home.html # 연습 웹페이지
+│   ├── home.html # 발음연습 웹페이지
 │   ├── ranking.html # 리더보드 웹페이지
 ├── README.md # this file
 ├── requirements.txt # python package list
