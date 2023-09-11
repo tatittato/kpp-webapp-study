@@ -4,8 +4,9 @@
 
 1. install python3.10
 
-2. install libraries
+2. install packages
 ```bash
+# You can add package names to this requirements.txt
 pip install -r requirements.txt
 ```
 
