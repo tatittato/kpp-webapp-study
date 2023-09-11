@@ -1,1 +1,1 @@
-# kpp-webapp-study
+# Korean Pronunciation Practice Web Application Study
